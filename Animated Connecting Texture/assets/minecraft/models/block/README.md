@@ -1,0 +1,2 @@
+Here, the diorite model is overwritten with a connecting model.
+The model has the same contents as the vanilla model, but with the addition of the fusion loader, `connecting` model type, and `is_same_block` connection predicate.

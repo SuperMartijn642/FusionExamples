@@ -1,0 +1,2 @@
+Here, the tuff bricks texture is replaced with a `random` texture. To indicate the texture is a random texture, the `tuff_bricks.png.mcmeta` is used.
+The metadata file specifies that the texture is a random texture and that the texture uses 2 rows and 3 columns. This corresponds to the `tuff_bricks.png` image which is 3 tiles wide and 2 tiles tall.

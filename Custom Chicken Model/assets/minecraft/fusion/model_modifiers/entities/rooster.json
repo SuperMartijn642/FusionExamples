@@ -1,0 +1,11 @@
+{
+  "targets": [
+    "minecraft:chicken"
+  ],
+  "layers": {
+    "main": {
+      "model": "rooster",
+      "texture": "entity/rooster"
+    }
+  }
+}

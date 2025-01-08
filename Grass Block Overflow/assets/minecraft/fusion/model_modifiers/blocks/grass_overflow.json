@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "gravel",
+    "dirt",
+    "sand"
+  ],
+  "append": [
+    "minecraft:block/grass_overlay"
+  ]
+}

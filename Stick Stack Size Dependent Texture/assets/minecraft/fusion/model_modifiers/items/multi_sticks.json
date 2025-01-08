@@ -1,0 +1,25 @@
+{
+  "targets": [
+    "minecraft:stick"
+  ],
+  "models": [
+    {
+      "model": "minecraft:item/three_sticks",
+      "conditions": [
+        {
+          "type": "count",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "model": "minecraft:item/two_sticks",
+      "conditions": [
+        {
+          "type": "count",
+          "min": 2
+        }
+      ]
+    }
+  ]
+}

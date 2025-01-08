@@ -1,0 +1,25 @@
+{
+  "targets": [
+    "minecraft:cow"
+  ],
+  "layers": {
+    "main": {
+      "conditionals": [
+        {
+          "texture": "entity/snowy_cow",
+          "conditions": [
+            {
+              "type": "biome",
+              "biomes": [
+                "old_growth_pine_taiga",
+                "old_growth_spruce_taiga",
+                "taiga",
+                "snowy_taiga"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

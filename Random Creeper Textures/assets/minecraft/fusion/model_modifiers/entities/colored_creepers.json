@@ -1,0 +1,15 @@
+{
+  "targets": [
+    "minecraft:creeper"
+  ],
+  "layers": {
+    "main": {
+      "texture": [
+        "entity/creeper/creeper",
+        "entity/blue_creeper",
+        "entity/red_creeper",
+        "entity/yellow_creeper"
+      ]
+    }
+  }
+}

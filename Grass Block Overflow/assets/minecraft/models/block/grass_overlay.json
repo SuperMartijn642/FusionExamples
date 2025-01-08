@@ -1,0 +1,30 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "textures": {
+    "top": "minecraft:block/overflowing_grass"
+  },
+  "connections": [
+    {
+      "type": "and",
+      "predicates": [
+        {
+          "type": "match_block",
+          "block": "grass_block"
+        },
+        {
+          "type": "is_face_visible"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "up": { "texture": "#top", "cullface": "up" }
+      }
+    }
+  ]
+}

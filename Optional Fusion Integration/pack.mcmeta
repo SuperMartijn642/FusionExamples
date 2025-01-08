@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "description": "Taiga cow texture example",
+        "pack_format": 15,
+        "supported_formats": [0, 1000]
+    },
+    "fusion": {
+        "min_version": "1.2.0",
+        "overrides_folder": "fusion-overwrites"
+    }
+}

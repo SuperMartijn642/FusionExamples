@@ -1,0 +1,2 @@
+Since we want to use a random texture, the model for tuff bricks is overwritten with a `base` model.
+The contents of the model are the same as the vanilla tuff bricks model apart from the loader and model type. 

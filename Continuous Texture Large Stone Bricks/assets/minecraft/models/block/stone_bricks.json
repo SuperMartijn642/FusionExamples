@@ -1,0 +1,8 @@
+{
+  "loader": "fusion:model",
+  "type": "base",
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block/stone_bricks"
+  }
+}

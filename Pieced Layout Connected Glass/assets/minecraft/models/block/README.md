@@ -1,0 +1,2 @@
+Here the model for the glass block is overwritten. The contents are mostly the same as the model in vanilla, but with 2 additions:  
+The model is now a connecting model as specified by `"type": "connecting"`, and the model uses the `is_same_block` connection predicate to make any connecting textures connect to the same block as the model itself.

@@ -1,0 +1,64 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "parent": "block/block",
+  "textures": {
+    "bottom": "block/dirt",
+    "top": "block/grass_block_top",
+    "side": "block/grass_block_side",
+    "overlay": "block/grass_block_side_overlay",
+    "particle": "#bottom"
+  },
+  "connections": {
+    "type": "not",
+    "predicate": {
+      "type": "and",
+      "predicates": [
+        {
+          "type": "is_direction",
+          "directions": [
+            "bottom_left",
+            "bottom",
+            "bottom_right"
+          ]
+        },
+        {
+          "type": "or",
+          "predicates": [
+            {
+              "type": "is_same_block"
+            },
+            {
+              "type": "match_block_in_front",
+              "block": "grass_block"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top",    "cullface": "up", "tintindex": 0 },
+        "north": { "texture": "#side",   "cullface": "north" },
+        "south": { "texture": "#side",   "cullface": "south" },
+        "west":  { "texture": "#side",   "cullface": "west" },
+        "east":  { "texture": "#side",   "cullface": "east" }
+      }
+    },
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "north": { "texture": "#overlay", "cullface": "north", "tintindex": 0 },
+        "south": { "texture": "#overlay", "cullface": "south", "tintindex": 0 },
+        "west":  { "texture": "#overlay", "cullface": "west",  "tintindex": 0 },
+        "east":  { "texture": "#overlay", "cullface": "east",  "tintindex": 0 }
+      }
+    }
+  ]
+}

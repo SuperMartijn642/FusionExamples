@@ -1,0 +1,2 @@
+Here we create a connecting model with a single top face which uses the `block/overflowing_grass` texture.
+The model specifies connection predicates to connect to grass blocks which are visible (i.e. there is not some other block placed in front of it).

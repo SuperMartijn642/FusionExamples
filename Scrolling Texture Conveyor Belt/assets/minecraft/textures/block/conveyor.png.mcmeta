@@ -1,0 +1,8 @@
+{
+  "fusion": {
+    "type": "scrolling",
+    "from": "top_left",
+    "to": "bottom_left",
+    "frame_time": 10
+  }
+}

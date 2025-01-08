@@ -1,0 +1,2 @@
+Here, the stone bricks texture is replaced with a `continuous` texture. To indicate the texture is a continuous texture, the `stone_bricks.png.mcmeta` is used.
+The metadata file specifies that the texture is a continuous texture and that the texture is 2 blocks tall and 3 blocks wide.

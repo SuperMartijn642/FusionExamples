@@ -1,0 +1,1 @@
+There are two models simply using the two stick textures.

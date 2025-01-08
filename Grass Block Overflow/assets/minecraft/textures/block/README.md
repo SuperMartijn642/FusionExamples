@@ -1,0 +1,2 @@
+Here we create a connecting grass texture with the `overlay` layout.  
+Since, the texture may be used on blocks with arbitrary render type and arbitrary tinting, it is important that the metadata specifies that the texture should use the `cutout` render type and the `biome_grass` tinting function.

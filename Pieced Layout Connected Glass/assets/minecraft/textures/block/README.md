@@ -1,0 +1,2 @@
+Here the glass texture is replaced with a connecting texture using the `pieced` layout. To indicate the texture is a connecting texture, the `glass.png.mcmeta` is used.
+The metadata file specifies that the texture is a connecting texture and that the texture uses the `pieced` layout.

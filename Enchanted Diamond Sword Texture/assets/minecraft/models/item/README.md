@@ -1,0 +1,1 @@
+Here, there is simply an item model which uses the enchanted diamond sword texture.

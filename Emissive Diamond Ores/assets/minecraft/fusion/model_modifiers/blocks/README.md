@@ -1,0 +1,2 @@
+Here, we create a block model modifier which targets the diamond ore block and adds the overlay model.
+The `diamond_ore_overlay` model is added to the `append` list to overlay it on the regular diamond ore model.

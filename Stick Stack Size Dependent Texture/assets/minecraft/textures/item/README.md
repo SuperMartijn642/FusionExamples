@@ -1,0 +1,1 @@
+Here, there are two textures for multiple sticks.

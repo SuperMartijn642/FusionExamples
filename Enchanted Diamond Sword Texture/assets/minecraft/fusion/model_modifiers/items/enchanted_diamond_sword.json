@@ -1,0 +1,16 @@
+{
+  "targets": [
+    "minecraft:diamond_sword"
+  ],
+  "models": [
+    {
+      "model": "minecraft:item/fiery_diamond_sword",
+      "conditions": [
+        {
+          "type": "enchantment",
+          "enchantment": "minecraft:fire_aspect"
+        }
+      ]
+    }
+  ]
+}

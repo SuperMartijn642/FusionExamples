@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore"
+  ],
+  "append": [
+    "minecraft:block/diamond_ore_overlay"
+  ]
+}
